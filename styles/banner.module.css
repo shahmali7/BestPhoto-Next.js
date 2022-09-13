@@ -1,0 +1,28 @@
+.bannerAll{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url('https://images.unsplash.com/photo-1527495726983-4fbb078d7594?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.options{
+    color: white;
+    margin-right: 150px;
+}
+.options > h2 {
+    font-size: 2rem;
+    font-weight: 700;
+}
+.options > p {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+.options > button {
+    height: 35px;
+    width: 100px;
+    background: transparent;
+    border-radius: 7px;
+}

@@ -1,0 +1,16 @@
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.unList{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 30px;
+    text-transform: uppercase;
+}
+.unList > li {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
