@@ -12,8 +12,8 @@ const Navbar = () => {
         <nav>
            <ul className={styles.unList}>
             <li><Link href='/'>Home</Link></li>
-            <li><Link href='/#gallery'>Gallery</Link></li>
-            <li><Link href='/Portfolio'>News</Link></li>
+            <li><Link href='/Gallery'>Gallery</Link></li>
+            <li><Link href='/Workers'>Workers</Link></li>
             <li><Link href='/Contact'>Contact</Link></li>
            </ul>
         </nav>

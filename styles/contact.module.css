@@ -1,0 +1,41 @@
+.contact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.formMain{
+    height: 30px;
+    width: 250px;
+    border-radius: 7px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid grey;
+    border-top: 1px solid grey;
+}
+.main{
+    height: 70px;
+    width: 250px;
+    border-radius: 7px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid grey;
+    border-top: 1px solid grey;
+}
+.form > button {
+    height: auto;
+    padding: 7px 40px;
+    border-radius: 7px;
+    cursor: pointer;
+    border: none;
+    background-color: darkorange;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
